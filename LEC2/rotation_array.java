@@ -1,6 +1,6 @@
 
 
-public class array_rotation {
+public class rotation_array
     public static void rotate(int arr[], int d) {
         int n = arr.length;
         d = d % n; // Handle cases where d >= n
